@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color:#EA5652;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.nav-image{
+    background-image: url(d0f68ebe8c4242068fde0bfa30930a69_20230303_053602_136_203985_BennettUniversitylogo.png);
+    background-size:cover;
+    height: 50px;
+    width: 134px;
+}
+.nav-text{
+    font-weight: 60;
+    font-size: 25px;
+    margin-left: 4px;
+}
+.nav-search {
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    
+}
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: black;
+    background-color: #ffffff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav-bell{
+    margin: 15px;
+    font-size: 22px;
+}
+.nav-user{
+    background-image: url(profile.png);
+    background-size:cover;
+    height: 40px;
+    width: 40px;
+    margin: 4px;
+    font-size: 20px;
+    border-radius: 100px;
+}
+
+
+.big-box{
+    height: 1080px;
+    padding: 5px 5px 0px;
+    background-color: rgb(236, 230, 230);
+    display: flex;
+    justify-content: center;
+}
+/* .first-box{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 60px;
+    width:1065px;
+    background-color:#ffffff;
+    
+} */
+.nav-head{
+    color:#EA5652;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    height: 60px;
+    width: 1065px;
+    background-color:#ffffff;
+}
+.nav-back{
+    margin: 10px;
+}
+.nav-book{
+    margin: 10px;
+    color: #EA5652;
+}
+.second-box{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    height: 60px;
+    width:1065px;
+    background-color:#ffffff;
+    margin-top: 15px;
+}
+.ongoing{
+    margin: 10px;
+    color: rgb(153, 150, 150);
+}
+.previous{
+    margin: 10px;
+    color: rgb(153, 150, 150);
+}
+.exam-records{
+    margin: 10px;
+    color:#EA5652;
+    border-bottom: 2px solid #EA5652;
+}
+.ongoing:hover{
+    color:#EA5652
+}
+.previous:hover{
+    color:#EA5652
+}
+.third-box{
+    display: flex;
+    align-items:start;
+    justify-content:left;
+    height: 420px;
+    width:1065px;
+    background-color:#ffffff;
+    margin-top: 15px;
+}
+.sub-box1{
+    margin: 15px;
+}
+
+
+.sub-box2{
+    margin-top: 15px;
+    display: inline;
+    justify-content:right;
+}
+.margin{
+    margin: 10px;
+    font-weight:600;
+}
+.major{
+    margin: 10px;
+    border: 0.5px solid rgb(214, 126, 126);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 240, 254);
+    color:black;
+    font-size: 16px;
+    padding: 10px 10px 10px;
+
+}
+.course{
+    margin: 10px;
+    margin-left: 75px;
+    font-size: 25px;
+    color:#EA5652;
+}
+.text{
+    margin: 20px;
+    font-size: 18px;
+}
+
+.result{
+    margin-top: 15px;
+    display: flex;
+    justify-content: left;
+    margin-left: 220px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.grade{
+    margin: 10px;
+    margin-top: 59px;
+    margin-left: 275px;
+    font-size: 25px;
+    color:#EA5652;
+}
+.text2{
+    margin: 20px;
+    font-size: 18px;
+    margin-left: 300px;
+}
